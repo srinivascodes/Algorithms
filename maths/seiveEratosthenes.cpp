@@ -12,16 +12,24 @@ using namespace std;
 vector<int> primes; /*Stores the prime numbers*/
 bool isComposite[MAX_SIZE];
 
-int main() {
+void seiveOfEratosthenes(int maxSize){
+
 	/*setting all the integers as primes*/
 	memset(isComposite,false,sizeof(isComposite));
+
+        for(long int i=2;i<maxSize;i++){
+                if(!isComposite[i]){
+                primes.push_back(i);
+                        for(long int j=i*i;j<maxSize;j+=i)
+                        isComposite[j]=true;
+                }
+        }
+}
+
+int main() {
 	
-	for(long int i=2;i<MAX_SIZE;i++){
-		if(!isComposite[i]){
-		primes.push_back(i);
-			for(long int j=i*i;j<MAX_SIZE;j+=i)
-			isComposite[j]=true;
-		}
-	}
-	return 0;
+/*populate primes vector*/
+seiveOfEratosthenes(MAX_SIZE);
+	
+return 0;
 }
