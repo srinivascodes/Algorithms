@@ -5,7 +5,7 @@ email: <shubham.agrawal.8025@gmail.com>
 
 /*Greatest Common Divisor*/
 
-#include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
 
 int calculateGCD(int a, int b){
