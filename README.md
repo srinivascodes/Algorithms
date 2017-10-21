@@ -1,5 +1,5 @@
 # Algorithms
-This repository will help you to get algorithms and their implementations written in C++. This is an attempt to prepare aspirants for ACM-ICPC. Here is the list of algorithms that are required in the contest.
+This repository will help you to get algorithms and their implementations written in C++. This is an attempt to prepare aspirants for ACM-ICPC.
 
 # Contribution
 Please contribute to this repository.
