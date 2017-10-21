@@ -1,5 +1,5 @@
 # Algorithms
-This repository will help you to get algorithms and their implementations written in C++. This is an attempt to prepare aspirants for ACM-ICPC.
+This repository will help you to get algorithms and their implementations written in C++. This is an attempt to prepare aspirants for ACM-ICPC. You can solve problems of ACM-ICPC from this [link](https://icpc.kattis.com/problems)
 
 # Contribution
 Please contribute to this repository.
