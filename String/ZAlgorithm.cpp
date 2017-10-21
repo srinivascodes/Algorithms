@@ -5,8 +5,7 @@ email: <shubham.agrawal.8025@gmail.com>
 
 /*Z Algorithm */
 
-//#include<bits/stdc++.h>
-#include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
 const int MAX_SIZE = 100000;
 int zArray[MAX_SIZE];
