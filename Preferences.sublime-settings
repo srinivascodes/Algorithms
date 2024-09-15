@@ -1,0 +1,11 @@
+{
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
+	"font_size": 22,
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"auto_complete": true,
+	"auto_complete_selector": "source, text",
+	"index_files": true,
+}
